@@ -1,0 +1,6 @@
+framework module UBiMAXTopOnAdapter {
+  umbrella header "UBiMAXTopOnAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}

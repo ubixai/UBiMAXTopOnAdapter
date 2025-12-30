@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXTopOnAdapter'
-  s.version          = '6.4.89.0'
+  s.version          = '6.5.34.0'
   s.summary          = 'UBiX聚合Sass SDK TopOn Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,5 +17,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'UBiMAXAdSDK'
   s.dependency 'UBiMAXNative'
-  s.dependency 'AnyThinkiOS', '6.4.89'
+  s.dependency 'AnyThinkiOS', '6.5.34'
+  s.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter','6.5.41.0'
+
 end
